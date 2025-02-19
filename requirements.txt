@@ -1,0 +1,15 @@
+# rest api service
+fastapi
+uvicorn
+
+# for test cases
+pytest
+pytest-cov 
+httpx
+
+# benchmark
+locust
+
+# for simulataion
+requests
+aiohttp
