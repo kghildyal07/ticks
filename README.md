@@ -46,6 +46,7 @@ There are coverage and locust test reports in the `./reports` directory.
 - run with gunicorn for better process management.
 - Probably have just one deque cache instead of two. I had to go with two for simplicity.
 - Persist the populated cache is parquet/arrow file before it is destroyed.
+- Add GHA and run unit tests in the CI pipeline.
 
 ## Challenge:
 I aboslutely loved it. I had not worked on a concurrency problem statements a lot. So it was a great learning experience for me altogether. 
